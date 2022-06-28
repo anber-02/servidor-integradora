@@ -1,0 +1,39 @@
+@api = http://localhost:3002/user
+@api2=http://localhost:3002/perros
+GET http://localhost:3002/userrr
+
+###
+GET {{api2}}
+ 
+
+# ###
+# GET http://localhost:3002/user/count;
+
+# ###
+# POST  {{api}}
+# Content-Type: application/json
+
+# {
+#     "usuario": "Krystal",
+#     "contrasennia": "nose",
+#     "nombre": "Kry",
+#     "apellido_p": "Care",
+#     "apellido_m": "Tron",
+#     "email": "krys@gmail.com",
+#     "num_telefono": "951",
+#     "edad": "20"
+# }
+
+###
+DELETE {{api}}/15
+
+###
+PUT  {{api}}/16
+Content-Type: application/json
+
+{
+    "nombre": "Andrea actualizada",
+    "apellido_p": "Men",
+    "apellido_m": "va",
+    "email": "menvas@gmail.com"
+}

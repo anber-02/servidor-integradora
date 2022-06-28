@@ -1,0 +1,8 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
+// archivo de configuracion que especifica "question"
+// va a realizar babel
+// bable runtime regenerator
